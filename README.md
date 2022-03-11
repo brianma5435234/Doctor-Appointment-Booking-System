@@ -1,7 +1,7 @@
 
 ## Description
 
-This is the frontend of a Doctor Appointment Booking System created by Brian Ma using React, Redux-Thunk, and Bootstrap. The project was initialized with [Create React App](https://github.com/facebook/create-react-app). For the frontend, not all the features have been implemented but the main feature "Book Online" has been implemented. For the backend server, it is not ready yet. So, only dummy data are shown.
+This is the Frontend of a Doctor Appointment Booking System created by Brian Ma using React, Redux-Thunk, and Bootstrap. The project was initialized with [Create React App](https://github.com/facebook/create-react-app). For the Frontend, not all the features have been implemented but the main feature "Book Online" has been implemented. For the Backend server, it is not ready yet. So, only dummy data are shown.
 
 ## Installation
 
