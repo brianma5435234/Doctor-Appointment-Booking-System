@@ -1,0 +1,1 @@
+export { getDoctors } from "./DoctorServices";

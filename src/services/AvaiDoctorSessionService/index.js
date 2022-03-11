@@ -1,0 +1,1 @@
+export { getAvaiSessionsByDoctorID } from "./AvaiDoctorSessionService";

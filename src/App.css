@@ -1,0 +1,51 @@
+.customBtn1 {
+    box-shadow: 0px 0px 0px 2px #5cafe6;
+    background: linear-gradient(to bottom, #3f80f2 5%, #4791ed 100%);
+    background-color: #3f80f2;
+    border-radius: 10px;
+    border: 1px solid #2889de;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 12px 37px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #283966;
+}
+
+.customBtn1:hover {
+    background: linear-gradient(to bottom, #4791ed 5%, #3f80f2 100%);
+    background-color: #4791ed;
+}
+
+.customBtn1:active {
+    position: relative;
+    top: 1px;
+}
+
+.customBtn2 {
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background: linear-gradient(to bottom, #27b4f5 5%, #19a5e6 100%);
+    background-color: #27b4f5;
+    border-radius: 10px;
+    border: 1px solid #3489a3;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 12px 37px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #283966;
+}
+
+.customBtn2:hover {
+    background: linear-gradient(to bottom, #19a5e6 5%, #27b4f5 100%);
+    background-color: #19a5e6;
+}
+
+.customBtn2:active {
+    position: relative;
+    top: 1px;
+}

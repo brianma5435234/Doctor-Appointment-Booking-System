@@ -1,0 +1,89 @@
+.card-img-top {
+    height: 55vw;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.mytooltip>.tooltip-inner {
+    max-width: 25em;
+}
+
+.baseBlock {
+    border-radius: 5px;
+    overflow: hidden;
+    background: #fff;
+    -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.baseBlock:hover {
+    -webkit-transform: translate(0, -8px);
+    -moz-transform: translate(0, -8px);
+    -ms-transform: translate(0, -8px);
+    -o-transform: translate(0, -8px);
+    transform: translate(0, -8px);
+    box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.cardSelected {
+    border: 3px solid #40b1e1 !important
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .card-img-top {
+        height: 45vw;
+        /* border: ' 5px solid red'; */
+    }
+    .baseBlock {
+        /* border: 5px solid purple !important */
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .card-img-top {
+        height: 23vw;
+        /* border: ' 5px solid red'; */
+    }
+    .baseBlock {
+        /* border: 5px solid green !important */
+    }
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .card-img-top {
+        height: 15vw;
+        /* border: ' 5px solid red'; */
+    }
+    .baseBlock {
+        /* border: 5px solid yellow !important */
+    }
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .card-img-top {
+        height: 15vw;
+    }
+    .baseBlock {
+        /* border: 5px solid red !important */
+    }
+}
